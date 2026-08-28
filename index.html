@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angus Heritage | Fresh Meat, Delivered</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="rail">
+  <button class="rail-burger" aria-label="Menu">
+    <svg width="20" height="16" viewBox="0 0 20 16"><rect width="20" height="2.4" rx="1.2" fill="#fff"/><rect y="6.8" width="20" height="2.4" rx="1.2" fill="#fff"/><rect y="13.6" width="20" height="2.4" rx="1.2" fill="#fff"/></svg>
+  </button>
+  <button class="rail-icon active" data-target="home" aria-label="Home">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+  </button>
+  <button class="rail-icon" id="wishlistIcon" aria-label="Wishlist">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.6-10-9.1C.5 8.4 2.4 5 6 5c2 0 3.5 1.1 4.5 2.4C11.5 6.1 13 5 15 5c3.6 0 5.5 3.4 4 6.9C19.5 16.4 12 21 12 21z"/></svg>
+  </button>
+  <button class="rail-icon" id="cartRailIcon" aria-label="Cart">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="21" r="1.4" fill="currentColor" stroke="none"/><path d="M2 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+    <span class="rail-badge" id="railBadge">0</span>
+  </button>
+  <button class="rail-icon" aria-label="Account">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.6-4 5-6 8-6s6.4 2 8 6"/></svg>
+  </button>
+</nav>
+
+<div class="app">
+
+  <div class="main">
+    <header class="topbar">
+      <div class="search">
+        <input type="text" placeholder="Searching best meat...">
+        <svg class="search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </div>
+      <ul class="topnav">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Log out</a></li>
+      </ul>
+      <button class="bell" aria-label="Notifications">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8a6 6 0 0 1 12 0c0 5 2 6 2 6H4s2-1 2-6"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>
+      </button>
+    </header>
+
+    <main class="content">
+
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="hero-line hero-line--gold">This winter,</p>
+          <p class="hero-line hero-line--white">Let's meat up!</p>
+        </div>
+        <div class="hero-dots">
+          <span class="on"></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Daily special</h2>
+        <div class="category-row" id="categoryRow"></div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Chicken special</h2>
+        <div class="product-row" id="chickenRow"></div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Mutton special</h2>
+        <div class="product-row" id="muttonRow"></div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-brand">
+        <div class="logo">
+          <svg viewBox="0 0 60 40" width="46" height="34"><path d="M10 24c2-6 6-10 12-10 4 0 5 2 8 2s4-2 8-2c6 0 10 4 12 10-4 3-9 5-20 5s-16-2-20-5z" fill="#8a1c1c"/><path d="M14 22l-3-4M46 22l3-4" stroke="#8a1c1c" stroke-width="2" fill="none"/></svg>
+        </div>
+        <p class="brand-name">ANGUS HERITAGE</p>
+        <p class="brand-tag">Carne Angus &middot; Prime Quality</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#about">About us</a>
+        <a href="#">Blog</a>
+        <a href="#contact">Contact us</a>
+        <a href="#">Career</a>
+      </div>
+      <div class="footer-col">
+        <h4>Customer services</h4>
+        <a href="#">My account</a>
+        <a href="#">Track your order</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Our information</h4>
+        <a href="#">Privacy</a>
+        <a href="#">User terms &amp; condition</a>
+        <a href="#">Return policy</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact info</h4>
+        <p>+91-9384963805</p>
+        <p>angus233@gmail.com</p>
+        <div class="social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="WhatsApp">w</a>
+          <a href="#" aria-label="Instagram">i</a>
+          <a href="#" aria-label="YouTube">y</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <aside class="cart" id="cartDrawer">
+    <div class="cart-head">
+      <span class="cart-cup">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="21" r="1.4" fill="currentColor" stroke="none"/><path d="M2 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+      </span>
+      <h3>My cart</h3>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+    </div>
+
+    <div class="cart-items" id="cartItems">
+      <p class="cart-empty" id="cartEmpty">Your cart is empty. Add something delicious!</p>
+    </div>
+
+    <div class="bill">
+      <p class="bill-title">Bill summary</p>
+      <div class="bill-row"><span>Item total</span><span id="billItemTotal">₹ 0</span></div>
+      <div class="bill-row"><span>Delivery charges</span><span class="free">Free</span></div>
+      <div class="bill-row"><span>Discount</span><span id="billDiscount">-₹0</span></div>
+      <hr>
+      <div class="bill-row total"><span>Total amount</span><span id="billTotal">₹ 0</span></div>
+    </div>
+
+    <button class="checkout-btn" id="checkoutBtn">Checkout</button>
+  </aside>
+
+</div>
+
+<button class="cart-fab" id="cartFab" aria-label="Open cart">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.4" fill="currentColor" stroke="none"/><circle cx="18" cy="21" r="1.4" fill="currentColor" stroke="none"/><path d="M2 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.4a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+  <span id="fabBadge">0</span>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
