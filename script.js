@@ -1,29 +1,29 @@
 
 const categories = [
-  { name:"Chicken",    img:"https://placehold.co/300x300/e9c9a3/6b3a1f?text=Chicken" },
-  { name:"Prawns",     img:"https://placehold.co/300x300/ead9c4/6b3a1f?text=Prawns" },
-  { name:"Mutton",     img:"https://placehold.co/300x300/c98f83/4a1414?text=Mutton" },
-  { name:"Crab",       img:"https://placehold.co/300x300/cfd6d6/2f3a3a?text=Crab" },
-  { name:"Salmon fish",img:"https://placehold.co/300x300/e39a76/6b2f14?text=Salmon" }
+  { name:"Chicken",    img:"images/Classic Chicken.jpg" },
+  { name:"Prawns",     img:" images/prowns(1).png" },
+  { name:"Mutton",     img:"images/Rectangle 238.png" },
+  { name:"Crab",       img:"images/Rectangle 240.png" },
+  { name:"Salmon fish",img:"images/Rectangle 237.png" }
 ];
 
 const chickenProducts = [
-  { id:"ck1", name:"Chicken drumstick", meta:"Pack of 6 · 6 pieces · Serves 2-3", price:211, old:379, off:"44% off", img:"https://placehold.co/400x340/f3d9b1/6b3a1f?text=Drumstick" },
-  { id:"ck2", name:"Chicken breast boneless", meta:"4-5 pieces · Serves 2-3", price:201, old:369, off:"46% off", img:"https://placehold.co/400x340/f6e3c6/6b3a1f?text=Breast" },
-  { id:"ck3", name:"Chicken", meta:"Pack of 6 · 6 pieces · Serves 2-3", price:311, old:379, off:"44% off", img:"https://placehold.co/400x340/f0d6ae/6b3a1f?text=Chicken" },
-  { id:"ck4", name:"Chicken breast boneless", meta:"4-5 pieces · Serves 2-3", price:201, old:369, off:"46% off", img:"https://placehold.co/400x340/f6e3c6/6b3a1f?text=Breast" },
-  { id:"ck5", name:"Chicken drumstick", meta:"6 pieces · Serves 2-3", price:211, old:379, off:"44% off", img:"https://placehold.co/400x340/f3d9b1/6b3a1f?text=Drumstick" },
-  { id:"ck6", name:"Chicken curry cut", meta:"5-6 pieces · Serves 2-3", price:229, old:399, off:"42% off", img:"https://placehold.co/400x340/f0d6ae/6b3a1f?text=Curry+Cut" }
+  { id:"ck1", name:"Chicken drumstick", meta:"Pack of 6 · 6 pieces · Serves 2-3", price:211, old:379, off:"44% off", img:"  images/Rectangle 197.png " },
+  { id:"ck2", name:"Chicken breast boneless", meta:"4-5 pieces · Serves 2-3", price:201, old:369, off:"46% off", img:" images/Rectangle 197 (1).png" },
+  { id:"ck3", name:"Chicken", meta:"Pack of 6 · 6 pieces · Serves 2-3", price:311, old:379, off:"44% off", img:" images/Rectangle 197 (2).png " },
+  { id:"ck4", name:"Chicken breast boneless", meta:"4-5 pieces · Serves 2-3", price:201, old:369, off:"46% off", img:" images/Rectangle 197 (4).png " },
+  { id:"ck5", name:"Chicken drumstick", meta:"6 pieces · Serves 2-3", price:211, old:379, off:"44% off", img:"  images/Rectangle 197.png " },
+  { id:"ck6", name:"Chicken curry cut", meta:"5-6 pieces · Serves 2-3", price:229, old:399, off:"42% off", img:" images/Rectangle 197 (3).png " }
 ];
 
 const muttonProducts = [
-  { id:"mt1", name:"Mutton", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"https://placehold.co/400x340/c98f83/4a1414?text=Mutton" },
-  { id:"mt2", name:"Mutton curry cuts", meta:"4-5 pieces · Serves 2-3", price:500, old:369, off:"46% off", img:"https://placehold.co/400x340/b97b6f/4a1414?text=Curry+Cuts" },
-  { id:"mt3", name:"Mutton curry cuts", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"https://placehold.co/400x340/b97b6f/4a1414?text=Curry+Cuts" },
-  { id:"mt4", name:"Mutton", meta:"4-5 pieces · Serves 2-3", price:500, old:369, off:"46% off", img:"https://placehold.co/400x340/c98f83/4a1414?text=Mutton" },
-  { id:"mt5", name:"Mutton ribs", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"https://placehold.co/400x340/ad6f63/4a1414?text=Ribs" },
-  { id:"mt6", name:"Mutton leg", meta:"1 piece · Serves 2-3", price:846, old:969, off:"46% off", img:"https://placehold.co/400x340/c39184/4a1414?text=Leg" },
-  { id:"mt7", name:"Mutton", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"https://placehold.co/400x340/c98f83/4a1414?text=Mutton" }
+  { id:"mt1", name:"Mutton", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"images/Rectangle 197 (5).png  " },
+  { id:"mt2", name:"Mutton curry cuts", meta:"4-5 pieces · Serves 2-3", price:500, old:369, off:"46% off", img:" images/Rectangle 197 (6).png  " },
+  { id:"mt3", name:"Mutton curry cuts", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:" images/Rectangle 197 (7).png " },
+  { id:"mt4", name:"Mutton", meta:"4-5 pieces · Serves 2-3", price:500, old:369, off:"46% off", img:" images/Rectangle 197 (8).png  " },
+  { id:"mt5", name:"Mutton ribs", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"  images/Rectangle 197 (9).png " },
+  { id:"mt6", name:"Mutton leg", meta:"1 piece · Serves 2-3", price:846, old:969, off:"46% off", img:"  images/Rectangle 197 (10).png " },
+  { id:"mt7", name:"Mutton", meta:"9-14 pieces · Serves 4 · 500g", price:746, old:829, off:"10% off", img:"  images/Rectangle 197 (6).png" }
 ];
 
 let cart = [
